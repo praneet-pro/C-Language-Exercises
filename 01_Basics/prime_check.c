@@ -6,7 +6,7 @@
     Example:
     Input: Enter your number: 17
 
-    Output: This number is prime
+    Output: The number is prime
 */
 
 #include <stdio.h>
@@ -32,8 +32,8 @@ for(int i=2;i <= number/2;i++)
 
 //Printing output
 if(flag == 0)
-    printf("This number is a prime");
+    printf("The number is a prime");
 else
-    printf("This number is not a prime");
+    printf("The number is not a prime");
 return 0;       //Program ends successfully
 }
