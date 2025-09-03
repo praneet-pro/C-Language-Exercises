@@ -1,23 +1,24 @@
-# Basics Programs in C
+# Basic Programs in C  
 
-This folder contains simple C programs covering the basic concepts.
+This folder (`01_Basics`) contains fundamental C programs that cover numbers, loops, conditions, and simple logic building.  
 
-| S.No | Program Name            | Description |
-|------|-------------------------|-------------|
-| 1    | hello_world.c           | Prints "Hello, World!" to the screen. |
-| 2    | sum_of_two_numbers.c    | Adds two numbers. |
-| 3    | simple_interest.c       | Calculates simple interest. |
-| 4    | area_of_circle.c        | Finds the area of a circle. |
-| 5    | swap_numbers.c          | Swaps two numbers. |
-| 6    | even_odd.c              | Checks whether a number is even or odd. |
-| 7    | largest_of_two.c        | Finds the largest of two numbers. |
-| 8    | largest_of_three.c      | Finds the largest of three numbers. |
-| 9    | factorial.c             | Finds the factorial of a number. |
-| 10   | reverse_number.c        | Reverses a number. |
-| 11   | palindrome_number.c     | Checks whether a number is a palindrome. |
-| 12   | armstrong_number.c      | Checks whether a number is an Armstrong number. |
+| S.No | Program Name           | Description |
+|------|------------------------|-------------|
+| 1    | hello_world.c          | Prints "Hello, World!" to the screen. |
+| 2    | sum_of_two_numbers.c   | Adds two numbers entered by the user. |
+| 3    | even_or_odd.c          | Checks whether a number is even or odd. |
+| 4    | largest_of_3.c         | Finds the largest among three numbers. |
+| 5    | simple_calculator.c    | A simple calculator that performs basic operations. |
+| 6    | factorial.c            | Finds the factorial of a number. |
+| 7    | fibonacci_series.c     | Prints the Fibonacci series up to n terms. |
+| 8    | prime_check.c          | Checks whether a number is prime. |
+| 9    | palindrome_number.c    | Checks whether a number is a palindrome. |
+| 10   | reverse_number.c       | Reverses the digits of a number. |
+| 11   | armstrong_number.c     | Checks whether a number is an Armstrong number. |
+| 12   | star_pattern.c         | Prints a simple star pattern. |
 
 ---
 
 📌 **Note:** Each program is written in C and can be compiled using  
-`gcc program_name.c -o program_name`
+```bash
+gcc program_name.c -o program_name
