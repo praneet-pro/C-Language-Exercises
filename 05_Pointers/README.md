@@ -3,7 +3,7 @@
 | S.No | Program Name | Description |
 |------|--------------|-------------|
 | 1    | [pointer_basics.c](01_pointer_basics.c) | Demonstrates basic pointer declaration and usage. |
-| 2    | [null_pointer.c](02_null_pointer.c) | Demonstrates the concept of a null pointer. |
+| 2    | [swap_using_pointers.c](02_swap_using_pointers.c) | swaps the values of two variables using pointers. |
 | 3    | [array_using_pointer.c](03_array_using_pointer.c) | Shows how arrays can be accessed using pointers. |
 | 4    | [string_using_pointers.c](04_string_using_pointers.c) | Demonstrates string manipulation using pointers. |
 | 5    | [pointer_to_pointer.c](05_pointer_to_pointer.c) | Demonstrates the concept of pointer to pointer (double pointer). |
