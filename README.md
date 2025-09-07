@@ -11,7 +11,7 @@ Each folder focuses on a specific concept in C, starting from basics and moving 
 |-------------|-------------|-----------|
 | [01_Basics](01_Basics/README.md) | Fundamental programs (I/O, operators, simple calculations). | 10+ |
 | [02_Arrays](02_Arrays/README.md) | 1D & 2D array operations: traversal, searching, sorting, matrix ops. | 10+ |
-| [03_Strings](03_Strings/README.md) | String operations: length, copy, reverse, palindrome, anagram, etc. | 8+ |
+| [03_Strings](03_Strings/README.md) | String operations: length, copy, reverse, palindrome, anagram, etc. | 11 |
 | [04_Functions](04_Functions/README.md) | Functions & recursion for problem-solving. | 11 |
 | [05_Pointers](05_Pointers/README.md) | Pointer basics, arithmetic, dynamic memory, dangling pointer, structs. | 12 |
 
