@@ -14,7 +14,7 @@ This folder contains programs that demonstrate the use of functions in C.
 | 8    | reverse_number_function.c        | Reverses the digits of a number **using recursion**. |
 | 9    | max_min_array_function.c         | Finds the maximum and minimum element in an array using a function. |
 | 10   | swap_function.c                  | Swaps two numbers using a function. |
-| 11   | menu_driven_math_functions.c     | Menu-driven program for Addition, Subtraction, Multiplication, Division, and Factorial using functions. |
+| 11   | menu_driven_math_functions.c(11_menu_driven_math.c)     | Menu-driven program for Addition, Subtraction, Multiplication, Division, and Factorial using functions. |
 
 ---
 
