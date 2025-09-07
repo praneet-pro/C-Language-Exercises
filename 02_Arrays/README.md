@@ -23,7 +23,7 @@ Each program is well-documented and demonstrates a key concept of arrays.
 
 ---
 
-### How to Run
-1. Compile the program  
-   ```bash
-   gcc program_name.c -o program_name
+📌 **Note:** Each program is written in C and can be compiled using  
+```bash
+gcc program_name.c -o program_name
+
