@@ -1,17 +1,36 @@
-# C-Language-Exercises  
+# C Language Exercises  
 
-Structured collection of C practice programs (basics, arrays, strings, functions, etc.) to strengthen programming fundamentals.  
+This repository contains a collection of C programs organized by topics.  
+Each folder focuses on a specific concept in C, starting from basics and moving towards advanced topics.  
 
-## 📂 Folder Structure
-- **01_Basics/** → Beginner-friendly programs covering simple I/O, conditionals, and loops.  
-- **02_Arrays/** → Programs on 1D & 2D array operations, searching, and sorting.  
-- **03_Strings/** → String manipulation programs (length, reverse, palindrome, frequency, substring, etc.).  
-- **04_Functions/** → Programs demonstrating user-defined functions and recursion (factorial, Fibonacci, GCD, LCM, power, etc.).  
+---
 
-(Upcoming folders: Pointers, Structures & Enums, File Handling, Mini-Projects 🚀)  
+## 📂 Folder Structure  
 
-## 🛠 How to Run
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/<your-username>/C-Language-Exercises.git
-   cd C-Language-Exercises
+| Folder Name | Description | Programs |
+|-------------|-------------|-----------|
+| [01_Basics](01_Basics/README.md) | Fundamental programs (I/O, operators, simple calculations). | 10+ |
+| [02_Arrays](02_Arrays/README.md) | 1D & 2D array operations: traversal, searching, sorting, matrix ops. | 10+ |
+| [03_Strings](03_Strings/README.md) | String operations: length, copy, reverse, palindrome, anagram, etc. | 8+ |
+| [04_Functions](04_Functions/README.md) | Functions & recursion for problem-solving. | 11 |
+| [05_Pointers](05_Pointers/README.md) | Pointer basics, arithmetic, dynamic memory, dangling pointer, structs. | 12 |
+
+---
+
+## 🚀 Topics Covered  
+
+- Basics of C (I/O, operators, conditionals)  
+- Arrays and matrices  
+- Strings and text processing  
+- Functions (recursive & non-recursive)  
+- Pointers (arithmetic, dynamic memory, structures)  
+
+---
+
+## 📌 How to Run  
+
+```bash
+git clone https://github.com/praneet-pro/C-Language-Exercises.git
+cd C-Language-Exercises
+gcc program_name.c -o program_name
+./program_name
