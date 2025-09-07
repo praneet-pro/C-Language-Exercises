@@ -16,3 +16,9 @@ This folder contains C programs that demonstrate various pointer concepts.
 | 10   | dangling_pointer.c            | Demonstrates dangling pointer issue after freeing memory.                   |
 | 11   | function_pointer_demo.c       | Shows how to use function pointers to call functions.                       |
 | 12   | structure_with_pointer.c      | Demonstrates accessing structure members using structure pointers.          |
+
+---
+
+📌 **Note:** Each program is written in C and can be compiled using  
+```bash
+gcc program_name.c -o program_name
