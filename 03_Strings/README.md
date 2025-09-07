@@ -9,7 +9,7 @@ This folder contains programs that perform different operations on strings in C.
 | 3    | [string_palindrome.c](03_string_palindrome.c)                   | Checks whether the string is a palindrome. |
 | 4    | [string_compare.c](04_string_compare.c)                      | Compares two strings and checks if they are same. |
 | 5    | [string_copy.c](05_string_copy.c)                         | Copies one string into another. |
-| 6    | [string_concatenate.c](06_string_concatinate.c)                  | Concatenates two strings. |
+| 6    | [string_concatenate.c](06_string_concatenate.c)                  | Concatenates two strings. |
 | 7    | [string_count_vowels_consonants.c](07_count_vowels_consonants.c)      | Counts the number of vowels and consonants in a string. |
 | 8    | [string_remove_spaces.c](08_string_remove_spaces.c)                | Removes all spaces from the given string. |
 | 9    | [string_count_words.c](09_string_count_words.c)                  | Counts the number of words in a string. |
