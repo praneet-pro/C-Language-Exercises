@@ -1,50 +1,18 @@
-\# 📌 Pointers in C
+# Pointers in C
 
+This folder contains C programs that demonstrate various pointer concepts.
 
-
-This folder contains programs that demonstrate various concepts of pointers in C.  
-
-Each program shows how pointers can be used for memory management, arrays, strings, functions, and structures.
-
-
-
-\## 📂 List of Programs
-
-
-
-| No. | Program File                  | Description                                                                 |
-
-|-----|--------------------------------|-----------------------------------------------------------------------------|
-
-| 1   | pointer\_basics.c              | Demonstrates printing the address and value of a variable using pointers.   |
-
-| 2   | swap\_using\_pointers.c         | Swaps two numbers using pointers.                                           |
-
-| 3   | array\_using\_pointers.c        | Traverses and displays array elements using pointers.                       |
-
-| 4   | string\_using\_pointers.c       | Demonstrates string input/output and traversal using pointers.              |
-
-| 5   | pointer\_to\_pointer.c          | Demonstrates pointer to pointer (double pointer) usage.                     |
-
-| 6   | dynamic\_memory\_allocation.c   | Allocates memory dynamically using `malloc` and frees it.                   |
-
-| 7   | calloc\_malloc\_demo.c          | Compares `calloc` and `malloc` by allocating memory and displaying results. |
-
-| 8   | realloc\_demo.c                | Demonstrates `realloc` by resizing dynamically allocated memory.            |
-
-| 9   | pointer\_arithmetic.c          | Demonstrates pointer arithmetic for accessing array elements.               |
-
-| 10  | dangling\_pointer.c            | Demonstrates dangling pointer concept after freeing memory.                 |
-
-| 11  | function\_pointer\_demo.c       | Demonstrates function pointers by calling functions through pointers.       |
-
-| 12  | struct\_pointer.c              | Demonstrates accessing structure members using a pointer to structure.      |
-
-
-
----
-
-✅ Author: \*\*Praneet S\*\*  
-
-
-
+| S.No | Program Name                  | Description                                                                 |
+|------|-------------------------------|-----------------------------------------------------------------------------|
+| 1    | pointer_basics.c              | Demonstrates how to declare pointers, print addresses, and access values.   |
+| 2    | swap_using_pointers.c         | Swaps two numbers using call by reference with pointers.                    |
+| 3    | array_using_pointer.c         | Accesses and traverses array elements using pointers.                       |
+| 4    | string_using_pointers.c       | Demonstrates string operations (length, copy, reverse) using pointers.      |
+| 5    | pointer_to_pointer.c          | Shows how a pointer can store the address of another pointer.               |
+| 6    | pointer_arithmetic.c          | Traverses an array using pointer arithmetic.                                |
+| 7    | dynamic_memory_allocation.c   | Demonstrates `malloc()` and `free()` for dynamic memory allocation.         |
+| 8    | malloc_calloc_demo.c          | Compares `malloc()` and `calloc()` with examples.                           |
+| 9    | realloc_demo.c                | Shows how to use `realloc()` to resize dynamically allocated memory.        |
+| 10   | dangling_pointer.c            | Demonstrates dangling pointer issue after freeing memory.                   |
+| 11   | function_pointer_demo.c       | Shows how to use function pointers to call functions.                       |
+| 12   | structure_with_pointer.c      | Demonstrates accessing structure members using structure pointers.          |
