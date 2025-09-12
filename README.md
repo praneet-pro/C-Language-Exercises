@@ -14,6 +14,7 @@ Each folder focuses on a specific concept in C, starting from basics and moving 
 | [03_Strings](03_Strings/README.md) | String operations: length, copy, reverse, palindrome, anagram, etc. | 11 |
 | [04_Functions](04_Functions/README.md) | Functions & recursion for problem-solving. | 11 |
 | [05_Pointers](05_Pointers/README.md) | Pointer basics, arithmetic, dynamic memory, dangling pointer, structs. | 12 |
+| [06_Structues_and_Enums](06_Structurs_and_Enums/README.md) |Program demonstrating Structures, nested structures, tyoedef and enums. | 7 |
 
 ---
 
