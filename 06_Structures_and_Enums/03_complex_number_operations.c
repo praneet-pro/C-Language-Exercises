@@ -19,10 +19,10 @@
 
     Output:
         --- Complex Number Operations ---
-        First Number: 3 + 2i
-        Second Number: 1 + 7i
-        Sum: 4 + 9i
-        Difference: 2 - 5i
+        First Number: 3.0 + 2.0i
+        Second Number: 1.0 + 7.0i
+        Sum: 4.0 + 9.0i
+        Difference: 2.0 - 5.0i
 */
 
 #include<stdio.h>
