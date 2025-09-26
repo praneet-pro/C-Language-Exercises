@@ -17,14 +17,14 @@ int number;
 
 //Getting input from user
 printf("Enter the number to find factorial: ");
-scanf("%d",&number);
-int fact=1;
+scanf("%d", &number);
+int fact = 1;
 
 //Calculating factorial
-for(int i=1;i <= number;i++)
+for(int i = 2;i <= number;i++)
 {
     fact*=i;        //fact=fact*i
 }
-printf("The factorial of %d is: %d",number,fact);
+printf("The factorial of %d is: %d", number, fact);
 return 0;       //Program ends successfully
 }
