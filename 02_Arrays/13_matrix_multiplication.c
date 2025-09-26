@@ -28,48 +28,48 @@ int main()
 {
 
 //Getting the elements for first matrix from user
-int row_1,col_1;
+int row_1, col_1;
 printf("Enter rows and columns of first matrix: ");
-scanf("%d %d",&row_1,&col_1);
+scanf("%d %d", &row_1, &col_1);
 int arr_1[row_1][col_1];
 printf("\nEnter elements of first matrix: \n");
-for(int i=0;i < row_1;i++)
+for(int i = 0;i < row_1;i++)
 {
-    for(int j=0;j < col_1;j++)
+    for(int j = 0;j < col_1;j++)
     {
     scanf("%d",&arr_1[i][j]);
     }
 }
 
 //Getting the elements for second matrix from user
-int row_2,col_2;
+int row_2, col_2;
 printf("\nEnter rows and columns of second matrix: ");
-scanf("%d %d",&row_2,&col_2);
+scanf("%d %d", &row_2, &col_2);
 int arr_2[row_2][col_2];
 printf("\nEnter elements of second matrix: \n");
-for(int i=0;i < row_2;i++)
+for(int i = 0;i < row_2;i++)
 {
-    for(int j=0;j < col_2;j++)
+    for(int j = 0;j < col_2;j++)
     {
-    scanf("%d",&arr_2[i][j]);
+    scanf("%d", &arr_2[i][j]);
     }
 }
 
 //checking whether matrix multiplication is possible or not
 if(col_1 != row_2)
 {
-    printf("Matrix multiplication not possible");
+    printf("Matrix multiplication not possible\n");
     return 0;
 }
 
 //calculating matrix multiplication
 int arr_3[row_1][col_2];
-for(int i=0;i < row_1;i++)
+for(int i = 0;i < row_1;i++)
 {
-    for(int j=0;j < col_2;j++)
+    for(int j = 0;j < col_2;j++)
     {
          arr_3[i][j] = 0;
-        for(int k=0;k < col_1;k++)
+        for(int k= 0;k < col_1;k++)
         {
             arr_3[i][j] += arr_1[i][k] * arr_2[k][j];
         }
@@ -78,11 +78,11 @@ for(int i=0;i < row_1;i++)
 
 //printing the resultant matrix
 printf("Resultant matrix (Multiplication):\n");
-for(int i=0;i < row_1;i++)
+for(int i = 0;i < row_1;i++)
 {
-    for(int j=0;j < col_2;j++)
+    for(int j = 0;j < col_2;j++)
     {
-        printf("%d  ",arr_3[i][j]);
+        printf("%d  ", arr_3[i][j]);
     }
     printf("\n");
 }
