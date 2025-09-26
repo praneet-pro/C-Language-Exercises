@@ -23,28 +23,28 @@
 int main()
 {
 //Getting the number of rows and columns from user
-int rows,col;
+int rows, col;
 printf("Enter number of rows: ");
-scanf("%d",&rows);
+scanf("%d", &rows);
 printf("Enter number of columns: ");
-scanf("%d",&col);
+scanf("%d", &col);
 
 //Getting matrix elements from user
 int arr[rows][col];
 printf("\nEnter elements of the matrix: \n");
-for(int i=0;i < rows;i++)
+for(int i = 0;i < rows;i++)
 {
-    for(int j=0;j < col;j++)
+    for(int j = 0;j < col;j++)
     {
-        scanf("%d",&arr[i][j]);
+        scanf("%d", &arr[i][j]);
     }
 }
 
 //calculating the transpose matrix
 int trans[col][rows];
-for(int i=0;i < rows;i++)
+for(int i = 0;i < rows;i++)
 {
-    for(int j=0;j < col;j++)
+    for(int j = 0;j < col;j++)
     {
         trans[j][i] = arr[i][j];
     }
@@ -52,11 +52,11 @@ for(int i=0;i < rows;i++)
 
 //Printing the transpose matrix
 printf("Transpose matrix:\n");
-for(int i=0;i < col;i++)
+for(int i = 0;i < col;i++)
 {
-    for(int j=0;j < rows;j++)
+    for(int j = 0;j < rows;j++)
     {
-        printf("%d  ",trans[i][j]);
+        printf("%d  ", trans[i][j]);
     }
     printf("\n");
 }
