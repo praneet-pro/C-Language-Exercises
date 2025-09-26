@@ -16,22 +16,22 @@
 int main()
 {
 //Declaring variables to store values
-int n,temp;
-int num1,num2;
+int n, temp;
+int num1, num2;
 
 //Assigning the 1st and 2nd term
-num1=0;
-num2=1;
+num1 = 0;
+num2 = 1;
 
 //Getting the number of terms from the user
 printf("Enter the number of terms: ");
-scanf("%d",&n);
+scanf("%d", &n);
 printf("Fibonacci series: ");
 
 //Calculating and printing the Fibonacci series
-for(int i=0;i < n;i++)
+for(int i = 0;i < n;i++)
 {
-    printf("%d\t",num2);
+    printf("%d\t", num2);
     temp = num2;
     num2 = num1 + num2;
     num1 = temp;
