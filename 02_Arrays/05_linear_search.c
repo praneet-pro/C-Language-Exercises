@@ -19,34 +19,34 @@ int main()
 //Getting the size of the array from user
 int n;
 printf("Enter size of array: ");
-scanf("%d",&n);
+scanf("%d", &n);
 
 int arr[n];
 //Getting array elements from user
-printf("Enter %d elements: \n",n);
-for(int i=0;i < n;i++)
+printf("Enter %d elements: \n", n);
+for(int i = 0;i < n;i++)
 {
-    scanf("%d",&arr[i]);
+    scanf("%d", &arr[i]);
 }
 
 //Getting the target element to search from user
-int target,i,flag=0;      //Declaration of variables to store values
+int target, i, flag=0;      //Declaration of variables to store values
 printf("Enter the target element: ");
-scanf("%d",&target);
+scanf("%d", &target);
 
 //Searching for the target element
-for(i=0;i < n;i++)
+for(i = 0;i < n;i++)
 {
     if(arr[i] == target)
     {
-        flag=1;
+        flag = 1;
         break;
     }
 }
 
 //Printing the output
 if(flag == 1)
-    printf("Target element found at position %d \n",i+1);
+    printf("Target element found at position %d \n", i+1);
 else
     printf("Target element not found\n");
 return 0;       //Program ends successfully
