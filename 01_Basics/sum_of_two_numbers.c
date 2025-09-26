@@ -12,19 +12,19 @@
 #include <stdio.h>
 
 int main() {
-    int a,b;    // Variables to store inputs
+    int a, b;    // Variables to store inputs
 
     //Taking input values
     printf("Enter your 1st number: ");
-    scanf("%d",&a);
+    scanf("%d", &a);
     printf("Enter your 2nd number: ");
-    scanf("%d",&b);
+    scanf("%d", &b);
 
     //calculate sum
-    int sum=a+b;
+    int sum = a+b;
 
     //Display result
-    printf("The sum is: %d",sum);
+    printf("The sum is: %d", sum);
 
     return 0;   //Program ends successfully
 }
