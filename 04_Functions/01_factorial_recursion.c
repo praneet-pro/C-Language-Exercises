@@ -26,7 +26,7 @@ int main()
 
     // Getting input from user
     printf("Enter the number to find factorial: ");
-    scanf("%d",&number);
+    scanf("%d", &number);
 
     // Printing result
     printf("The factorial of %d is: %d\n", number, factorial(number));
