@@ -14,11 +14,11 @@
 int main()
 {
 //Declaring variables to store values
-int number,digit,reverse=0;
+int number, digit, reverse = 0;
 
 //Getting input from user
 printf("Enter your number: ");
-scanf("%d",&number);
+scanf("%d", &number);
 
 int temp = number;      //storing the value of number in a variable
 
