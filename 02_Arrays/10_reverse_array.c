@@ -20,18 +20,18 @@ int main()
 //Getting the size of the array from user
 int n;
 printf("Enter size of array: ");
-scanf("%d",&n);
+scanf("%d", &n);
 
 int arr[n];
 //Getting array elements from user
-printf("Enter %d elements: \n",n);
-for(int i=0;i < n;i++)
+printf("Enter %d elements: \n", n);
+for(int i = 0;i < n;i++)
 {
-    scanf("%d",&arr[i]);
+    scanf("%d", &arr[i]);
 }
 
 //Reversing the array
-for(int i=0;i < n/2;i++)
+for(int i = 0;i < n/2;i++)
 {
     int temp = arr[i];
     arr[i] = arr[n - i - 1];
@@ -40,9 +40,9 @@ for(int i=0;i < n/2;i++)
 
 //Printing the reversed array
 printf("Reversed array: ");
-for(int i=0;i < n;i++)
+for(int i = 0;i < n;i++)
 {
-    printf("%d  ",arr[i]);
+    printf("%d  ", arr[i]);
 }
 printf("\n");
 return 0;       //Program ends successfully
