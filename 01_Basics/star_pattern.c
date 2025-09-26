@@ -22,12 +22,12 @@ int rows;
 
 //getting input from user
 printf("Enter the number of rows: ");
-scanf("%d",&rows);
+scanf("%d", &rows);
 
 //printing star pattern
-for(int i=0;i <= rows;i++)
+for(int i = 0;i <= rows;i++)
 {
-    for(int j=0;j <= i;j++)     //Nested for loop
+    for(int j = 0;j <= i;j++)     //Nested for loop
     {
         printf("* ");
     }
