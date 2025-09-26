@@ -19,30 +19,30 @@ int main()
 //Getting the size of the array from user
 int n;
 printf("Enter size of array: ");
-scanf("%d",&n);
+scanf("%d", &n);
 
 int arr[n];
 //Getting array elements from user
-printf("Enter %d elements: \n",n);
-for(int i=0;i < n;i++)
+printf("Enter %d elements: \n", n);
+for(int i = 0;i < n;i++)
 {
-    scanf("%d",&arr[i]);
+    scanf("%d", &arr[i]);
 }
 
 //Getting the target element to search from user
-int target,flag=0;        //Declaration of variables to store values
+int target, flag = 0;        //Declaration of variables to store values
 printf("Enter the target element: ");
-scanf("%d",&target);
+scanf("%d", &target);
 
 //Searching for the target element
-int low = 0,high = n-1;
+int low = 0, high = n-1;
 while(low <= high)      //Binary looping
 {
     int mid = (high + low)/2;
     if(arr[mid] == target)
     {
-        printf("Target element found at position %d\n",mid+1);
-        flag=1;
+        printf("Target element found at position %d\n", mid + 1);
+        flag = 1;
         break;
     }
     else if(arr[mid] < target)
