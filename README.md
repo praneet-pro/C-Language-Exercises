@@ -1,7 +1,7 @@
 # 📘 C Programming Practice Repository  
 
 Welcome to my **C programming practice repository**! 🚀  
-This repo contains well-structured programs organized into different topics, covering everything from basics to advanced concepts like pointers, structures, and enums.  
+This repo contains well-structured programs organized into different topics, covering everything from basics to advanced concepts like pointers, structures, enums, and file handling.  
 
 Each folder includes:  
 - ✅ Multiple C programs  
@@ -20,6 +20,7 @@ Each folder includes:
 | 4    | [04_Functions](04_Functions/README.md) | User-defined functions, recursion, and parameter passing. |
 | 5    | [05_Pointers](05_Pointers/README.md) | Pointer basics, arithmetic, dynamic memory allocation, function pointers. |
 | 6    | [06_Structures_and_Enums](06_Structures_and_Enums/README.md) | Programs on structures, nested structures, typedef, enums, and switch-case. |
+| 7    | [07_File_Handling](07_File_Handling/README.md) | File handling programs (read, write, append, copy, word/line count, search, student records). |
 
 ---
 
