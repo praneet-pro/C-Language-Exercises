@@ -14,16 +14,16 @@
 int main()
 {
 //Declaring variables to store values
-int number,digit,reverse=0;
+int number, digit, reverse=0;
 
 //Getting input from user
 printf("Enter your number: ");
-scanf("%d",&number);
+scanf("%d", &number);
 
 //Calculating the reverse of the number
 while(number > 0)
 {
-    digit = number%10;
+    digit = number % 10;
     reverse = reverse*10 + digit;
     number/=10;
 }
