@@ -14,18 +14,18 @@
 int main()
 {
 int number;      //Declaration of variable to store value
-int flag=0;     //Flag variable
+int flag = 0;     //Flag variable
 
 //Getting input from user
 printf("Enter your number: ");
 scanf("%d",&number);
 
 //Checking whether prime or not(iterative method)
-for(int i=2;i <= number/2;i++)
+for(int i = 2;i <= number/2;i++)
 {
     if(number % i == 0)
     {
-        flag=1;
+        flag = 1;
         break;
     }
 }
