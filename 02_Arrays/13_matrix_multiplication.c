@@ -37,7 +37,7 @@ for(int i = 0;i < row_1;i++)
 {
     for(int j = 0;j < col_1;j++)
     {
-    scanf("%d",&arr_1[i][j]);
+    scanf("%d", &arr_1[i][j]);
     }
 }
 
