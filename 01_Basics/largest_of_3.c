@@ -18,16 +18,16 @@
 int main()
 {
 //Declaration of variable to store values
-int num_1,num_2,num_3;
+int num_1, num_2, num_3;
 int largest;
 
 //Getting inputs from user
 printf("Enter 1st number: ");
-scanf("%d",&num_1);
+scanf("%d", &num_1);
 printf("Enter 2nd number: ");
-scanf("%d",&num_2);
+scanf("%d", &num_2);
 printf("Enter 3rd number: ");
-scanf("%d",&num_3);
+scanf("%d", &num_3);
 
 //checking for the largest of 3 numbers
 if(num_1 > num_2 && num_1 > num_3)
@@ -37,6 +37,6 @@ else if(num_2 > num_3)
 else
     largest = num_3;
 
-printf("The largest of (%d,%d,%d) is: %d",num_1,num_2,num_3,largest);
+printf("The largest of (%d,%d,%d) is: %d", num_1, num_2, num_3, largest);
 return 0;       //Code ends successfully
 }
