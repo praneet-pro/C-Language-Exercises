@@ -34,7 +34,7 @@ int number;      //Declaration of variable to store value
 
 //Getting input from user
 printf("Enter your number: ");
-scanf("%d",&number);
+scanf("%d", &number);
 
 //Printing output
 if(prime_check(number))
