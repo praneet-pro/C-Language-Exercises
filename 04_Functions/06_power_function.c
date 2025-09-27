@@ -23,13 +23,13 @@ int power(int base, int exponent)
     }
     if(exponent > 0)
     {
-        return base* power(base, exponent - 1);
+        return base * power(base, exponent - 1);
     }
 }
 
 int main()
 {
-int base,exponent;
+int base, exponent;
 
 // Getting input from user
 printf("Enter the base: ");
@@ -44,7 +44,7 @@ if(base == 0)
 }
 else
 {
-printf("%d raised to the power %d is: %d\n", base, exponent, power(base,exponent));
+printf("%d raised to the power %d is: %d\n", base, exponent, power(base, exponent));
 }
 return 0;       // Program ends successfully
 }
