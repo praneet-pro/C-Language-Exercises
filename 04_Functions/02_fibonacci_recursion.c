@@ -30,12 +30,12 @@ int n;
 
 //Getting the number of terms from the user
 printf("Enter the number of terms: ");
-scanf("%d",&n);
+scanf("%d", &n);
 
 //Printing the output
-for(int i=0;i < n;i++)
+for(int i = 0;i < n;i++)
 {
-printf("%d\t",fibo(i));
+printf("%d\t", fibo(i));
 }
 
 return 0;       //Program ends successfully
