@@ -28,9 +28,9 @@ int gcd(int n1, int n2)
 }
 
 //function to calculate lcm
-int lcm(int n1,int n2)
+int lcm(int n1, int n2)
 {
-    return n1*n2 / gcd(n1,n2);
+    return n1 * n2 / gcd(n1, n2);
 }
 
 int main()
@@ -44,6 +44,6 @@ printf("Enter the second number: ");
 scanf("%d", &num_2);
 
 //Printing the output
-printf("The LCM of %d and %d is: %d\n",num_1,num_2,lcm(num_1,num_2));
+printf("The LCM of %d and %d is: %d\n", num_1, num_2, lcm(num_1, num_2));
 return 0;       //Program ends successfully
 }
