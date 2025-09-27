@@ -19,7 +19,7 @@ void findMaxMin(int arr[], int n, int *max, int *min)
 {
     *max = arr[0];
     *min = arr[0];
-    for(int i=1;i < n;i++)
+    for(int i = 1;i < n;i++)
     {
         if(arr[i] > *max)
         {
@@ -42,7 +42,7 @@ scanf("%d",&n);
 int arr[n];
 //Getting array elements from user
 printf("Enter %d elements: \n",n);
-for(int i=0;i < n;i++)
+for(int i = 0;i < n;i++)
 {
     scanf("%d",&arr[i]);
 }
