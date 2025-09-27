@@ -38,6 +38,6 @@ printf("Enter the second number: ");
 scanf("%d", &num_2);
 
 //Printing the output
-printf("The GCD of %d and %d is: %d\n",num_1,num_2,gcd(num_1,num_2));
+printf("The GCD of %d and %d is: %d\n", num_1, num_2, gcd(num_1, num_2));
 return 0;       //Program ends successfully
 }
